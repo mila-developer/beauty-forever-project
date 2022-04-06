@@ -284,6 +284,17 @@ nav.show .icon-close {
   width: 100%;
 }
 
+#header.scroll {
+  background-color: var(--base-color);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+}
+
+#header.scroll .logo span,
+#header.scroll .icon-menu {
+  color: white;
+  transition: 0.5s;
+}
+
 main {
   margin-top: calc(var(--header-height) + 2rem);
 }
