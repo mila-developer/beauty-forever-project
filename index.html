@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>beautyforever</title>
   <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/salon-spa-line-style/32/Salon__Spa_icon_line_style_32px_expanded_for_sale_Scissor-1024.png">
-  <link rel="stylesheet" href="style.css">
   <!-- Icons -->
   <link rel="stylesheet" href="assets/fonts/style.css">
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -94,8 +96,69 @@
         </div>
       </div>
     </section>
-    <div id="vanta"></div>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="testimonials">
+      <div class="container grid">
+        <header>
+          <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+        </header>
+        <div class="testimonials swiper-container">
+          <div class="swiper-wrapper">
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Eu sou cliente do Beautyforever há 5 anos e não troco por nada! 
+                  Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos 
+                  naturais e veganos. São profissionais incríveis e qualificados.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/9.jpg" alt="Foto de Wanessa Souza">
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Eu sou cliente do Beautyforever há 5 anos e não troco por nada! 
+                  Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos 
+                  naturais e veganos. São profissionais incríveis e qualificados.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/57.jpg" alt="Foto de Renata Ferraz">
+                  Renata Ferraz
+                </cite>
+              </blockquote>
+            </div>
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Eu sou cliente do Beautyforever há 5 anos e não troco por nada! 
+                  Certamente meu cabelo mudou muito depois que comecei a tratar somente com produtos 
+                  naturais e veganos. São profissionais incríveis e qualificados.
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Foto de Luisa Martins">
+                  Luisa Martins
+                </cite>
+              </blockquote>
+            </div>
+          </div>
+
+           <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
   </main>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
