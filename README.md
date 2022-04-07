@@ -1,2 +1,2 @@
 # beauty-forever-project
-Beauty salon landing page.
+Beautyforever landing page.

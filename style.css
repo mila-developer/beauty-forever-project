@@ -32,11 +32,16 @@ img {
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
 }
 
 /********************* BASE **********************/
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -47,7 +52,7 @@ body {
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 700 var(--title-font-size) 'Poppins', sans-serif;
   color: var(--title-color);
   -webkit-font-smoothing: auto;
 }
@@ -265,6 +270,10 @@ nav.show .icon-close {
 
 .section .title {
   margin-bottom: 1rem;
+}
+
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
 }
 
 .section header {
@@ -512,3 +521,17 @@ footer .social a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Responsive */
+/* MEDIA QUERIES */
+/* extra large devices: 1200 > */
+/*  large devices: 1023 > */
+/*  large devices: 992 > */
+  @media (min-width: 992px) {
+ :root {
+   --title-font-size: 2.2rem;
+   --subtitle-font-size: 1.125rem;
+ }
+}
+
+/*  medium devices: 767 > */
