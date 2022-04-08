@@ -488,6 +488,7 @@ footer .social a {
   margin-right: 2rem;
   transition: 0.3s;
   display: inline-block;
+  color: var(--text-color);
 }
 
 footer .social a:hover {
